@@ -68,5 +68,5 @@ node_modules
 functions/lib
 *.log
 target
-wasm
+functions/src/wasm
 .firebaserc
