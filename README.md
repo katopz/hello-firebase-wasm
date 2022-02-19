@@ -3,9 +3,12 @@
 POC WASM on Firebase Cloud Function
 
 ```shell
-# To build WASM from Rust
+# Setup
+cargo install cargo-watch
 cargo install -f wasm-bindgen-cli
-cargo build --target wasm32-unknown-unknown --release && wasm-bindgen target/wasm32-unknown-unknown/release/greeter.wasm --out-dir ../functions//src/wasm --nodejs
+
+# To watch and build WASM from Rust
+cargo watch -- . ./dev.sh
 
 # To run WASM with Firebase
 cd functions
