@@ -68,3 +68,4 @@ node_modules
 functions/lib
 *.log
 target
+wasm
