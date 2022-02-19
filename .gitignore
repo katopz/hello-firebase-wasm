@@ -69,3 +69,4 @@ functions/lib
 *.log
 target
 wasm
+.firebaserc
